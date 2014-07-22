@@ -1,0 +1,156 @@
+html, body, #screen { height: 100%; margin: 0; padding: 0;}
+
+.sticky1 {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 0 -50px 0; /*Für mittigen content: margin: 0 auto -50px auto;*/
+}
+.sticky2a { padding-bottom: 50px; }
+.sticky2b { height: 50px; }
+
+.show {display:block;}
+.hide {display:none;}
+
+a {
+	text-decoration:none;
+	color:#111111;
+}
+a:hover,
+a:active {
+	color:#f16529;
+}
+
+
+#screen {
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight:200;
+	font-size:0.70em;
+	letter-spacing:0.05em;
+}
+
+
+
+
+header {
+	z-index:200;
+	position:relative;
+	width:160px;
+	padding:0px 20px 0px 20px;
+}
+
+menu {
+	margin:0;
+	padding:0;
+}
+menu ul,
+menu li {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+menu .separator {
+	line-height:1.5em;
+	border:none;
+	border-top:1px solid #e44d26;
+}
+menu .bottom {
+	 position:absolute;
+	 bottom:20px;
+}
+menu a {
+	padding:0 3px;
+	line-height:1.5em;
+	display:block;
+	text-transform:uppercase;
+}
+
+
+#main {
+	z-index:100;
+	display:block;
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	min-height:100%;
+}
+.body {display:none;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	padding-left:230px;
+	width:570px;
+}
+
+h1 {
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight:200;
+	font-size:2.25em;
+	letter-spacing:0.05em;
+	text-transform:uppercase;
+	margin-top:40px;
+	margin-bottom:40px;
+}
+
+/* List */
+.patterngate {border-radius:3px;width:550px;margin-bottom:20px;background-color:#efefef;vertical-align:top;padding:10px;}
+.patterngate:hover {background-color:#cfcfcf;}
+.patterngate h2 {margin-top:0;padding-top:0;}
+.leftside {float:left;width:330px;margin-right:20px;}
+.rightside {width:180px;float:left;}
+pre {background:snow;padding:5px 3px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+pre:hover {overflow:visible;}
+datalist {display:block;}
+.postest {color:green;}
+.negtest {color:red;}
+.by {font-style:italic;font-size:0.9em;color:grey;text-align:right;}
+
+/* Pattern-Maker */
+form#f {
+    background-color:#ccc;
+    padding:10px;
+    display:inline-block;
+    width:100%;
+}
+form#f input {
+    width:330px;
+}
+form#f input, form#f textarea {
+    font-family:inherit;
+    font-size:0.9em;
+}
+form#f .felem {
+    margin-top:5px;
+    padding:5px;
+}
+form#f .felem label {
+    text-shadow: 1px 1px 3px #888;
+}
+form#f .fgrid {
+    width:50%;
+    float:left;
+}
+form#f .fresult {
+    text-align:center;
+}
+form#f label {
+    display:block;
+}
+
+form#f hr {
+    margin:10px auto;
+    
+    font-size: 0px; line-height: 0%; width: 0px;
+    border-top: 40px solid #888;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+}
+
+form#f .fanchor {
+    text-align:center;
+    margin-top:5px;
+}
+a#ar {
+    text-decoration:none;
+}
