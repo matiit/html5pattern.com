@@ -1,38 +1,4 @@
-<?php
-    function encode_email($email='info@domain.com', $linkText='Contact Us', $attrs ='class="emailencoder"' )  
-    {  
-        // remplazar aroba y puntos  
-        $email = str_replace('@', '&#64;', $email);  
-        $email = str_replace('.', '&#46;', $email);  
-        $email = str_split($email, 5);  
-      
-        $linkText = str_replace('@', '&#64;', $linkText);  
-        $linkText = str_replace('.', '&#46;', $linkText);  
-        $linkText = str_split($linkText, 5);  
-          
-        $part1 = '<a href="ma';  
-        $part2 = 'ilto&#58;';  
-        $part3 = '" '. $attrs .' >';  
-        $part4 = '</a>';  
-      
-        $encoded = '<script type="text/javascript">';  
-        $encoded .= "document.write('$part1');";  
-        $encoded .= "document.write('$part2');";  
-        foreach($email as $e)  
-        {  
-                $encoded .= "document.write('$e');";  
-        }  
-        $encoded .= "document.write('$part3');";  
-        foreach($linkText as $l)  
-        {  
-                $encoded .= "document.write('$l');";  
-        }  
-        $encoded .= "document.write('$part4');";  
-        $encoded .= '</script>';  
-      
-        return $encoded;  
-    }  
-?>
+<?php include 'html5pattern/php/functions.php'; ?>
 <!doctype html>
 <html>
   <head>
@@ -78,7 +44,7 @@
           <div id="pretext">
           <h1>Welcome…</h1>
           <p>HTML5Pattern is a source of regularly used <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/common-input-element-attributes.html#the-pattern-attribute">Input-Patterns</a>. If you know a new or a better pattern, then please leave a comment. Thank you!</p>
-          <p><strong>Pattern Support</strong> Firefox 4+ & Chrome 5+ & Opera 9.6+ & MSIE 10+</p>
+          <p><strong>Pattern Support</strong> Firefox 4+ &amp; Chrome 10+ &amp; Opera 9.6+ &amp; IE 10+ <a href="http://caniuse.com/#feat=input-pattern" title="More about support...">...</a></p>
           <p>Your Browser {browsername} {browserversion} does {patternsupport} support Input-Patterns.</p>
           
           <br /><br /><br /><br />

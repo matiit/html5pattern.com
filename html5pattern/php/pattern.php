@@ -40,9 +40,7 @@ $pattern = array(
     /**
      * Emails
      */
-    "Emails" => array(
-        //array('Mail', '', '(/^[^\\W][a-zA-Z0-9\\_\\-\\.]+([a-zA-Z0-9\\_\\-\\.]+)*\\@[a-zA-Z0-9_]+(\\.[a-zA-Z0-9_]+)*\\.[a-zA-Z]{2,4}$/)', array(), array(), 'Craighr')
-    ),
+    "Emails" => array(), // Nope! ;-)
 
 
     /**
@@ -52,16 +50,6 @@ $pattern = array(
         array('Amex Credit Card', '', '[0-9]{4} *[0-9]{6} *[0-9]{5}', array(), array(), 'Bad'),
         array('Credit Card Number', '', '[0-9]{13,16}', array(), array(), $aurel),
         array('Diners Club Card', '', '^([30|36|38]{2})([0-9]{12})$', array(), array(), '<a href="http://regexlib.com/REDetails.aspx?regexp_id=951">regexlib.com</a>')
-        
-        // Marc Love
-        // Credit Cards (Visa, MC, Discover, Amex, Diners, JCB, Switch & Solo):
-        // /^(?:4\d{12}(\d{3})?|(5[1-5]\d{4}|677189)\d{10}|(6011|65\d{2}|64[4-9]\d)\d{12}|(62\d{14})|3[47]\d{13}|3(0[0-5]|[68]\d)\d{11}|35(28|29|[3-8]\d)\d{12}|6759\d{12}(\d{2,3})?|6767\d{12}(\d{2,3})?|5019\d{12})$/
-        // https://github.com/Shopify/active_merchant/blob/master/lib/active_merchant/billing/credit_card_methods.rb
-        
-        // Markus Tiefenbacher http://twitter.com/tiefenb
-        // Austrian Health Insurance Number (Short-Version): ^[0-9]{4}
-        // Austrian Health Insurance Number (Long-Version): (^[0-9]{4})(\s{1})([0-9]{6}$)
-
     ),
     
 
