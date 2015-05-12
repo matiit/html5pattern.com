@@ -1,4 +1,4 @@
-<img src="//img.shields.io/gratipay/dipser.svg">
+[![Gittip](http://img.shields.io/gratipay/dipser.svg)](https://gratipay.com/dipser/)
 
 html5pattern.com
 ================
