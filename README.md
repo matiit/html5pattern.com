@@ -1,3 +1,5 @@
+<img src="//img.shields.io/gratipay/dipser.svg">
+
 html5pattern.com
 ================
 
