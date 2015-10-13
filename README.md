@@ -9,5 +9,7 @@ View: [.../pattern.php](https://github.com/dipser/html5pattern.com/blob/master/h
 Look at this: [The Treehouse Show | Episode 138: Semantic UI, Polyfills, HTML 5 Patterns](https://youtu.be/pshb8rPRsKg?t=429)
 
 
+<br /><br />
+----
 
 [![Gittip](http://img.shields.io/gratipay/dipser.svg)](https://gratipay.com/dipser/)
