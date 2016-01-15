@@ -97,6 +97,7 @@ h1 {
 .patterngate {border-radius:3px;width:550px;margin-bottom:20px;background-color:#efefef;vertical-align:top;padding:10px;}
 .patterngate:hover {background-color:#cfcfcf;}
 .patterngate h2 {margin-top:0;padding-top:0;}
+.patterngate pre {overflow: scroll;}
 .leftside {float:left;width:330px;margin-right:20px;}
 .rightside {width:180px;float:left;}
 pre {background:snow;padding:5px 3px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
@@ -140,7 +141,7 @@ form#f label {
 
 form#f hr {
     margin:10px auto;
-    
+
     font-size: 0px; line-height: 0%; width: 0px;
     border-top: 40px solid #888;
     border-left: 250px solid transparent;
